@@ -1,17 +1,30 @@
 <template>
-  <div class="nav">
-       <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+          <router-link class="navbar-brand text-decoration-none" to="/">Signs</router-link>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+           <router-link class="nav-item text-decoration-none mx-2" to="/">Home</router-link>
+           <router-link class="nav-item text-decoration-none mx-2" to="/about">About</router-link>
+           <router-link class="nav-item text-decoration-none mx-2" to="/pricing">Pricing</router-link>
+      </div>
+    </div>
   </div>
+</nav>
+  |
 </template>
 
 <script>
 export default {
-    name: 'navbar'
-
+  name: 'navbar',
 }
 </script>
 
-<style>
-
+<style scoped>
+nav .nav-item {
+  color: #000000 !important;
+}
 </style>
