@@ -3,6 +3,8 @@ import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import Signage from '../views/Signage.vue'
 import Workwear from '../views/Workwear.vue'
+import PDP from '../views/PDP.vue'
+
 
 
 
@@ -27,6 +29,11 @@ const routes = [
     path: '/workwear',
     name: 'Workwear',
     component: Workwear
+  },
+  {
+    path: '/product-image',
+    name: 'PDP',
+    component: PDP
   }
 ]
 

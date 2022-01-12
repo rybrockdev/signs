@@ -14,7 +14,7 @@
             />
           </router-link>
           <div class="info-group">
-            <p>rrp: £20</p>
+            <p class="rrp-text">rrp: £20</p>
             <p>NOW £10</p>
             <button class="btn btn-primary">Shop Now</button>
           </div>
@@ -30,7 +30,7 @@
             />
           </router-link>
           <div class="info-group">
-            <p>rrp: £20</p>
+            <p class="rrp-text">rrp: £20</p>
             <p>NOW £10</p>
             <button class="btn btn-primary">Shop Now</button>
           </div>
@@ -45,7 +45,7 @@
             />
           </router-link>
           <div class="info-group">
-            <p>rrp: £20</p>
+            <p class="rrp-text">rrp: £20</p>
             <p>NOW £10</p>
             <button class="btn btn-primary">Shop Now</button>
           </div>
@@ -60,7 +60,7 @@
             />
           </router-link>
           <div class="info-group">
-            <p>rrp: £20</p>
+            <p class="rrp-text">rrp: £20</p>
             <p>NOW £10</p>
             <button class="btn btn-primary">Shop Now</button>
           </div>
@@ -78,7 +78,7 @@
             />
           </router-link>
           <div class="info-group">
-            <p>rrp: £20</p>
+            <p class="rrp-text">rrp: £20</p>
             <p>NOW £10</p>
             <button class="btn btn-primary">Shop Now</button>
           </div>
@@ -94,7 +94,7 @@
             />
           </router-link>
           <div class="info-group">
-            <p>rrp: £20</p>
+            <p class="rrp-text">rrp: £20</p>
             <p>NOW £10</p>
             <button class="btn btn-primary">Shop Now</button>
           </div>
@@ -109,7 +109,7 @@
             />
           </router-link>
           <div class="info-group">
-            <p>rrp: £20</p>
+            <p class="rrp-text">rrp: £20</p>
             <p>NOW £10</p>
             <button class="btn btn-primary">Shop Now</button>
           </div>
@@ -124,7 +124,7 @@
             />
           </router-link>
           <div class="info-group">
-            <p>rrp: £20</p>
+            <p class="rrp-text">rrp: £20</p>
             <p>NOW £10</p>
             <button class="btn btn-primary">Shop Now</button>
           </div>
@@ -144,5 +144,8 @@ export default {
 .info-group p {
   padding: 0 !important;
   margin: 0 !important;
+}
+p.rrp-text {
+  color: #ff0000;
 }
 </style>
